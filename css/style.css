@@ -44,6 +44,7 @@ body {
     color: #222;
     font-size: 24px;
     font-weight: 600;
+    
 }
 
 .logo:hover {
@@ -56,6 +57,7 @@ body {
 
 .logo-icon {
     margin-right: 16px;
+    border-radius: 50%;
 }
 
 .site-nav {
@@ -112,4 +114,28 @@ body {
     background-color: #DE2E54;
     color: white;
     opacity: 0.6;
+}
+
+/*Site-Footer*/
+.site-footer{
+    color: white;
+    padding: 24px 0;
+    background-color: #222;
+}
+.site-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    color: white;
+}
+.footer-logo:active{
+    color: white;
+}
+.site-footer-nav-link{
+    color: white;
+}
+.site-footer-nav-link:active{
+    color: white;
 }
