@@ -23,3 +23,93 @@ body {
     margin-right: auto;
 }
 
+*:focus{
+    outline: 2px dotted #DE2E54;
+    outline-offset: 2px;
+}
+/*Site-Header*/
+.site-header{
+    padding: 24px 0;
+}
+.site-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo:hover {
+    color: #DE2E54;
+}
+
+.logo:active {
+    opacity: 0.6;
+}
+
+.logo-icon {
+    margin-right: 16px;
+}
+
+.site-nav {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.site-nav-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.site-nav-link {
+    color: #222;
+    text-decoration: none;
+    display: block;
+}
+
+.site-nav-link:hover {
+    color: #DE2E54;
+}
+
+.site-nav-link:active {
+    opacity: 0.6;
+}
+
+.site-button {
+    display: inline-block;
+    color: white;
+    background-color: #DE2E54;
+    text-decoration: none;
+    padding: 10px 22px;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    font-family: Open Sans Condensed;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.site-button:hover{
+    background-color: white;
+    color: #DE2E54;
+}
+.site-button:active{
+    background-color: #DE2E54;
+    color: white;
+    opacity: 0.6;
+}
