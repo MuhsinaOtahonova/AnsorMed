@@ -27,6 +27,30 @@ body {
     outline: 2px dotted #DE2E54;
     outline-offset: 2px;
 }
+
+.site-button {
+    display: inline-block;
+    color: white;
+    background-color: #DE2E54;
+    text-decoration: none;
+    padding: 10px 22px;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.site-button:hover{
+    background-color: white;
+    color: #DE2E54;
+}
+.site-button:active{
+    background-color: #DE2E54;
+    color: white;
+    opacity: 0.6;
+}
 /*Site-Header*/
 .site-header{
     padding: 24px 0;
@@ -92,30 +116,47 @@ body {
     opacity: 0.6;
 }
 
-.site-button {
-    display: inline-block;
+/*Hero*/
+.hero{
+    background-color: #0EB4C1;
+    width: 100%;
     color: white;
-    background-color: #DE2E54;
-    text-decoration: none;
-    padding: 10px 22px;
-    border: 2px solid #DE2E54;
-    border-radius: 8px;
-    font-family: Open Sans Condensed;
-    font-size: 15px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content{
+width: 500px;
+border-radius: 8px;
+padding: 120px 0;
+}
+.hero-content-header{
+font-family: "Open Sans Condensed";
+font-size: 36px;
+margin-top: 0;
+line-height: 1.2;
+margin-bottom: 16px;
 
 }
-.site-button:hover{
-    background-color: white;
-    color: #DE2E54;
+.hero-content-text{
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 440;
+margin-top: 0;
+margin-bottom: 36px;
 }
-.site-button:active{
-    background-color: #DE2E54;
-    color: white;
+.hero-content-button:hover{
+color: white;
+background-color: #DE2E54;
+opacity: 0.8;
+}
+.hero-content-button:active{
     opacity: 0.6;
 }
-
+.hero-img{
+    align-self: flex-end;
+}
 /*Site-Footer*/
 .site-footer{
     color: white;
